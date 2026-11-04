@@ -25,41 +25,82 @@
     "everyNRows": 12,
     "minRow": 1,
     "categories": {
-      "trekking": [
-        "trek",
-        "trekking",
-        "hiking",
-        "camping",
-        "rucksack"
-      ],
-      "books": [
-        "book",
-        "books",
-        "novel",
-        "kindle",
-        "reading"
-      ],
-      "storage": [
-        "ssd",
-        "hard disk",
-        "pendrive",
-        "memory card",
-        "storage"
-      ],
-      "phone": [
-        "iphone case",
-        "charger",
-        "power bank",
-        "earbuds"
-      ],
-      "study": [
-        "exam",
-        "notes",
-        "stationery",
-        "upsc",
-        "neet",
-        "jee"
-      ]
+      "trekking": {
+        "words": [
+          "trek",
+          "trekking",
+          "hiking",
+          "camping",
+          "rucksack"
+        ],
+        "picks": [
+          "trekking shoes",
+          "rucksack 45 l",
+          "headlamp",
+          "trekking poles",
+          "rain jacket"
+        ]
+      },
+      "books": {
+        "words": [
+          "book",
+          "books",
+          "novel",
+          "kindle",
+          "reading"
+        ],
+        "picks": [
+          "kindle paperwhite",
+          "bestseller novels",
+          "book light",
+          "bookmarks"
+        ]
+      },
+      "storage": {
+        "words": [
+          "ssd",
+          "hard disk",
+          "pendrive",
+          "memory card",
+          "storage"
+        ],
+        "picks": [
+          "portable ssd",
+          "pendrive",
+          "memory card",
+          "hard disk case"
+        ]
+      },
+      "phone": {
+        "words": [
+          "iphone case",
+          "charger",
+          "power bank",
+          "earbuds"
+        ],
+        "picks": [
+          "iphone case",
+          "fast charger",
+          "power bank",
+          "wireless earbuds"
+        ]
+      },
+      "study": {
+        "words": [
+          "exam",
+          "notes",
+          "stationery",
+          "upsc",
+          "neet",
+          "jee"
+        ],
+        "picks": [
+          "highlighter set",
+          "notebook pack",
+          "desk lamp",
+          "sticky notes"
+        ]
+      }
     },
     "sponsors": [
       {
@@ -112,11 +153,17 @@
       "explore": {
         "on": true,
         "firstAt": 2,
-        "every": 0,
+        "every": 3,
         "source": "any"
       },
       "itemPage": {
         "on": true,
+        "source": "context"
+      },
+      "filesFolders": {
+        "on": true,
+        "firstAt": 2,
+        "every": 0,
         "source": "context"
       }
     },
@@ -124,6 +171,9 @@
       "perDay": 8,
       "perScreen": 2,
       "minSecondsBetween": 30
+    },
+    "sponsoredFolder": {
+      "maxItems": 8
     }
   },
   "fx": {
