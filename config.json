@@ -74,7 +74,57 @@
         ]
       }
     ],
-    "keywordFallback": true
+    "keywordFallback": true,
+    "fewResults": true,
+    "phrase": true,
+    "profile": true,
+    "placements": {
+      "filesSearch": {
+        "on": true,
+        "firstAt": 1,
+        "every": 12,
+        "source": "search"
+      },
+      "filesBrowse": {
+        "on": true,
+        "firstAt": 4,
+        "every": 20,
+        "source": "context"
+      },
+      "photosGrid": {
+        "on": true,
+        "firstAt": 12,
+        "every": 60,
+        "source": "any"
+      },
+      "library": {
+        "on": true,
+        "firstAt": 3,
+        "every": 15,
+        "source": "context"
+      },
+      "librarySearch": {
+        "on": true,
+        "firstAt": 1,
+        "every": 12,
+        "source": "search"
+      },
+      "explore": {
+        "on": true,
+        "firstAt": 2,
+        "every": 0,
+        "source": "any"
+      },
+      "itemPage": {
+        "on": true,
+        "source": "context"
+      }
+    },
+    "caps": {
+      "perDay": 8,
+      "perScreen": 2,
+      "minSecondsBetween": 30
+    }
   },
   "fx": {
     "base": "INR",
