@@ -61,7 +61,18 @@
         "jee"
       ]
     },
-    "sponsors": [],
+    "sponsors": [
+      {
+        "id": "myind-test",
+        "title": "Myind test ad",
+        "body": "A test ad with a picture",
+        "url": "https://github.com/shaantanu9/myind-config",
+        "image": "https://raw.githubusercontent.com/shaantanu9/myind-config/main/images/test-ad.png",
+        "keywords": [
+          "myindtestad"
+        ]
+      }
+    ],
     "keywordFallback": true
   }
 }
