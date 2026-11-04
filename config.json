@@ -1,0 +1,66 @@
+{
+  "minVersion": "1.0.0",
+  "recommendedVersion": "1.0.0",
+  "paywall": false,
+  "message": "",
+  "killAll": false,
+  "flags": {
+    "offers": {
+      "on": true,
+      "rollout": 100
+    },
+    "paidPlans": {
+      "on": false
+    },
+    "sizeSplit": {
+      "on": false
+    }
+  },
+  "offers": {
+    "amazon": {
+      "tag": "aaoolo-21",
+      "domain": "www.amazon.in"
+    },
+    "maxPerDay": 3,
+    "everyNRows": 12,
+    "minRow": 4,
+    "categories": {
+      "trekking": [
+        "trek",
+        "trekking",
+        "hiking",
+        "camping",
+        "rucksack"
+      ],
+      "books": [
+        "book",
+        "books",
+        "novel",
+        "kindle",
+        "reading"
+      ],
+      "storage": [
+        "ssd",
+        "hard disk",
+        "pendrive",
+        "memory card",
+        "storage"
+      ],
+      "phone": [
+        "iphone case",
+        "charger",
+        "power bank",
+        "earbuds"
+      ],
+      "study": [
+        "exam",
+        "notes",
+        "stationery",
+        "upsc",
+        "neet",
+        "jee"
+      ]
+    },
+    "sponsors": []
+  }
+}
