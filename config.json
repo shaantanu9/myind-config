@@ -112,7 +112,8 @@
         "keywords": [
           "myindtestad",
           "pdf"
-        ]
+        ],
+        "everywhere": true
       }
     ],
     "keywordFallback": true,
@@ -174,7 +175,8 @@
     },
     "sponsoredFolder": {
       "maxItems": 8
-    }
+    },
+    "rotation": false
   },
   "fx": {
     "base": "INR",
