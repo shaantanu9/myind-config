@@ -23,7 +23,7 @@
     },
     "maxPerDay": 3,
     "everyNRows": 12,
-    "minRow": 4,
+    "minRow": 1,
     "categories": {
       "trekking": [
         "trek",
@@ -69,7 +69,8 @@
         "url": "https://github.com/shaantanu9/myind-config",
         "image": "https://raw.githubusercontent.com/shaantanu9/myind-config/main/images/test-ad.png",
         "keywords": [
-          "myindtestad"
+          "myindtestad",
+          "pdf"
         ]
       }
     ],
