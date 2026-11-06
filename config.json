@@ -31,7 +31,13 @@
           "trekking",
           "hiking",
           "camping",
-          "rucksack"
+          "rucksack",
+          "backpack",
+          "tent",
+          "sleeping bag",
+          "headlamp",
+          "trekking shoes",
+          "hiking shoes"
         ],
         "picks": [
           "trekking shoes",
@@ -39,7 +45,8 @@
           "headlamp",
           "trekking poles",
           "rain jacket"
-        ]
+        ],
+        "picture": "https://raw.githubusercontent.com/shaantanu9/myind-config/main/images/cat-trekking.jpg"
       },
       "books": {
         "words": [
@@ -47,14 +54,19 @@
           "books",
           "novel",
           "kindle",
-          "reading"
+          "reading",
+          "novels",
+          "paperback",
+          "bestseller",
+          "e-reader"
         ],
         "picks": [
           "kindle paperwhite",
           "bestseller novels",
           "book light",
           "bookmarks"
-        ]
+        ],
+        "picture": "https://raw.githubusercontent.com/shaantanu9/myind-config/main/images/cat-books.jpg"
       },
       "storage": {
         "words": [
@@ -62,28 +74,43 @@
           "hard disk",
           "pendrive",
           "memory card",
-          "storage"
+          "storage",
+          "hard drive",
+          "pen drive",
+          "sd card",
+          "backup drive",
+          "external drive"
         ],
         "picks": [
           "portable ssd",
-          "pendrive",
-          "memory card",
-          "hard disk case"
-        ]
+          "pendrive 128gb",
+          "memory card 128gb",
+          "external hard disk 1tb"
+        ],
+        "picture": "https://raw.githubusercontent.com/shaantanu9/myind-config/main/images/cat-storage.jpg"
       },
       "phone": {
         "words": [
           "iphone case",
           "charger",
           "power bank",
-          "earbuds"
+          "earbuds",
+          "phone",
+          "smartphone",
+          "mobile",
+          "phone case",
+          "phone cover",
+          "screen guard",
+          "usb c cable",
+          "earphones"
         ],
         "picks": [
-          "iphone case",
           "fast charger",
-          "power bank",
-          "wireless earbuds"
-        ]
+          "power bank 20000mah",
+          "phone case",
+          "usb c cable"
+        ],
+        "picture": "https://raw.githubusercontent.com/shaantanu9/myind-config/main/images/cat-phone.jpg"
       },
       "study": {
         "words": [
@@ -92,14 +119,255 @@
           "stationery",
           "upsc",
           "neet",
-          "jee"
+          "jee",
+          "study",
+          "notebook",
+          "pens",
+          "highlighter",
+          "desk lamp",
+          "planner",
+          "school",
+          "college"
         ],
         "picks": [
-          "highlighter set",
-          "notebook pack",
-          "desk lamp",
-          "sticky notes"
-        ]
+          "notebooks",
+          "gel pens",
+          "highlighters",
+          "study lamp",
+          "planner 2027"
+        ],
+        "picture": "https://raw.githubusercontent.com/shaantanu9/myind-config/main/images/cat-study.jpg"
+      },
+      "wellness": {
+        "words": [
+          "yoga",
+          "meditation",
+          "green tea",
+          "water bottle",
+          "sleep",
+          "self care",
+          "yoga mat",
+          "herbal tea"
+        ],
+        "picks": [
+          "yoga mat",
+          "steel water bottle",
+          "green tea",
+          "foam roller"
+        ],
+        "picture": "https://raw.githubusercontent.com/shaantanu9/myind-config/main/images/cat-wellness.jpg"
+      },
+      "food": {
+        "words": [
+          "coffee",
+          "tea",
+          "snacks",
+          "dry fruits",
+          "honey",
+          "chocolate",
+          "cookies",
+          "spices",
+          "breakfast"
+        ],
+        "picks": [
+          "coffee beans",
+          "dry fruits",
+          "honey",
+          "assam tea"
+        ],
+        "picture": "https://raw.githubusercontent.com/shaantanu9/myind-config/main/images/cat-food.jpg"
+      },
+      "fitness": {
+        "words": [
+          "gym",
+          "workout",
+          "fitness",
+          "dumbbells",
+          "running",
+          "running shoes",
+          "resistance band",
+          "skipping rope",
+          "protein"
+        ],
+        "picks": [
+          "dumbbells set",
+          "resistance bands",
+          "running shoes",
+          "skipping rope"
+        ],
+        "picture": "https://raw.githubusercontent.com/shaantanu9/myind-config/main/images/cat-fitness.jpg"
+      },
+      "travel": {
+        "words": [
+          "travel",
+          "trip",
+          "suitcase",
+          "luggage",
+          "trolley",
+          "vacation",
+          "holiday",
+          "neck pillow",
+          "packing",
+          "flight"
+        ],
+        "picks": [
+          "cabin trolley bag",
+          "neck pillow",
+          "packing cubes",
+          "travel adapter"
+        ],
+        "picture": "https://raw.githubusercontent.com/shaantanu9/myind-config/main/images/cat-travel.jpg"
+      },
+      "beauty": {
+        "words": [
+          "skincare",
+          "makeup",
+          "sunscreen",
+          "moisturiser",
+          "moisturizer",
+          "serum",
+          "lipstick",
+          "face wash",
+          "perfume"
+        ],
+        "picks": [
+          "sunscreen spf 50",
+          "face serum",
+          "moisturiser",
+          "lipstick"
+        ],
+        "picture": "https://raw.githubusercontent.com/shaantanu9/myind-config/main/images/cat-beauty.jpg"
+      },
+      "fashion": {
+        "words": [
+          "clothes",
+          "shirt",
+          "tshirt",
+          "t-shirt",
+          "dress",
+          "kurta",
+          "saree",
+          "sneakers",
+          "shoes",
+          "watch",
+          "wallet",
+          "sunglasses",
+          "jeans"
+        ],
+        "picks": [
+          "white sneakers",
+          "cotton kurta",
+          "leather wallet",
+          "sunglasses"
+        ],
+        "picture": "https://raw.githubusercontent.com/shaantanu9/myind-config/main/images/cat-fashion.jpg"
+      },
+      "toys": {
+        "words": [
+          "toys",
+          "toy",
+          "kids",
+          "lego",
+          "puzzle",
+          "board game",
+          "teddy",
+          "gift for kids",
+          "birthday gift"
+        ],
+        "picks": [
+          "building blocks",
+          "board games",
+          "jigsaw puzzle",
+          "soft toys"
+        ],
+        "picture": "https://raw.githubusercontent.com/shaantanu9/myind-config/main/images/cat-toys.jpg"
+      },
+      "pets": {
+        "words": [
+          "dog",
+          "dogs",
+          "cat",
+          "cats",
+          "puppy",
+          "kitten",
+          "pet",
+          "pet food",
+          "leash",
+          "dog food",
+          "cat food"
+        ],
+        "picks": [
+          "dog leash",
+          "pet bowl",
+          "cat litter",
+          "dog chew toys"
+        ],
+        "picture": "https://raw.githubusercontent.com/shaantanu9/myind-config/main/images/cat-pets.jpg"
+      },
+      "kitchen": {
+        "words": [
+          "kitchen",
+          "cooking",
+          "recipe",
+          "recipes",
+          "pan",
+          "cookware",
+          "pressure cooker",
+          "knife",
+          "mixer",
+          "air fryer"
+        ],
+        "picks": [
+          "non stick pan",
+          "pressure cooker",
+          "air fryer",
+          "kitchen knife set"
+        ],
+        "picture": "https://raw.githubusercontent.com/shaantanu9/myind-config/main/images/cat-kitchen.jpg"
+      },
+      "electronics": {
+        "words": [
+          "headphones",
+          "earbuds",
+          "speaker",
+          "bluetooth",
+          "smartwatch",
+          "laptop",
+          "keyboard",
+          "mouse",
+          "monitor",
+          "gadget",
+          "gadgets"
+        ],
+        "picks": [
+          "wireless earbuds",
+          "bluetooth speaker",
+          "smartwatch",
+          "wireless mouse"
+        ],
+        "picture": "https://raw.githubusercontent.com/shaantanu9/myind-config/main/images/cat-electronics.jpg"
+      },
+      "home": {
+        "words": [
+          "home",
+          "decor",
+          "room",
+          "bedroom",
+          "living room",
+          "lamp",
+          "cushion",
+          "curtains",
+          "plants",
+          "candle",
+          "furniture"
+        ],
+        "picks": [
+          "table lamp",
+          "cushion covers",
+          "scented candles",
+          "indoor plants pot"
+        ],
+        "picture": "https://raw.githubusercontent.com/shaantanu9/myind-config/main/images/cat-home.jpg"
       }
     },
     "sponsors": [
