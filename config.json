@@ -6,7 +6,7 @@
   "killAll": false,
   "flags": {
     "offers": {
-      "on": true,
+      "on": false,
       "rollout": 100
     },
     "paidPlans": {
